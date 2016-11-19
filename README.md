@@ -42,7 +42,7 @@ More forms can be accessed through the @passive_forms, @causative_forms, and @ca
 @causative_passive_forms_hiragana/@causative_passive_forms_romaji for the hiragana and roman letter versions.
 
 A final note on naming conventions: the names ascribed to tenses and modes of verbs may not coincide with the names given
-in formal grammars. For example, in continous forms are of the format "te-form verb plus a conjugated 'iru' verb," and _spoken
+in formal grammars. For example, continuous forms are of the format "te-form verb plus a conjugated 'iru' verb," and _spoken
 suffixes are added to denote that the "-i" in "iru" is being dropped as it generally would in speech, i.e.: "itteru" as opposed
 to the more enunciated "itte iru." The forms not dropping the "-i" in "iru" have been ascribed a _written suffix temporarily
 for lack of a better title. The standard "-masu" forms are described by polite_forms or denoted by _polite suffixes.
