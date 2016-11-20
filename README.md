@@ -7,11 +7,13 @@ with Japanese verbs in plain form and include both kanji and hiragana, i.e.:
 say = JayVerb.new("言う", "いう")
 ```
 
-This will return a JayVerb instance, which will automatically convert the provided hiragana into roman letters and process the verb.
+This will return a JayVerb instance, which will automatically convert the provided hiragana into Roman letters and process the verb.
 Note that the first kanji argument does not necessarily have to be written in Kanji. The library would still work given: 
 
 ```ruby
 say = JayVerb.new("いう", "いう")
+# Get the Roman-letter form of the verb by accessing the @romaji instance variable:
+say.romaji # => "iu"
 ```
 
 Note, however, that failing to provide both arguments will result in errors. The second argument MUST be written in hiragana for
