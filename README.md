@@ -48,3 +48,7 @@ in formal grammars. For example, continuous forms are of the format "te-form ver
 suffixes are added to denote that the "-i" in "iru" is being dropped as it generally would in speech, i.e.: "itteru" as opposed
 to the more enunciated "itte iru." The forms not dropping the "-i" in "iru" have been ascribed a _written suffix temporarily
 for lack of a better title. The standard "-masu" forms are described by polite_forms or denoted by _polite suffixes.
+
+# Future Additions & Amendments
+
+The Japanese::Conjugator module has the functionality available to conjugate Japanese -i adjectives (adjectives ending in "い"); however, this gem does not currently offer an Adjective class to create adjective instances to work on. You can use the conjugator with adjectives if you have an instance with kanji, hiragana, and romaji properties along with a part_of_speech property that should be initialized to "adj-i". Running this through the conjugator should return the conjugated adjective.
